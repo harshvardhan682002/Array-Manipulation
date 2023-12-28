@@ -1,0 +1,106 @@
+*Here are 20 questions involving map and filter in JS with JSON and arrays of strings, along with examples but without solutions:*
+
+*Map Questions:*
+
+1. *Double the numbers in an array:*
+   javascript
+   const numbers = [1, 4, 2, 8];
+   // Map to double each number
+   
+
+2. *Create a new array with all names in uppercase:*
+   javascript
+   const names = ["Alice", "Bob", "Charlie"];
+   // Map to transform names to uppercase
+   
+
+3. *Extract a property from a JSON object array:*
+   javascript
+   const users = [
+       { name: "John", age: 30 },
+       { name: "Jane", age: 25 }
+   ];
+   // Map to get an array of names
+   
+
+4. *Combine first and last names into full names:*
+   javascript
+   const firstNames = ["John", "Jane"];
+   const lastNames = ["Doe", "Smith"];
+   // Map to create an array of full names
+   
+
+5. *Calculate the length of each string in an array:*
+   javascript
+   const strings = ["hello", "world", "JavaScript"];
+   // Map to create an array of string length
+   
+
+6. *Convert numbers to currency strings:*
+   javascript
+   const prices = [12.99, 19.95, 35.50];
+   // Map to format prices as currency strings
+   
+
+7. *Create an array of square numbers:*
+   javascript
+   const numbers = [1, 2, 3, 4, 5];
+   // Map to create an array of squares
+   
+
+8. *Generate an array of random numbers:*
+   javascript
+   const count = 10;
+   // Map to create an array of 10 random numbers
+   
+
+9. *Create an array of HTML elements:*
+    javascript
+    const items = ["apple", "banana", "orange"];
+    // Map to create an array of <li> elements
+    
+
+*Filter Questions:*
+
+1. *Remove even numbers from an array:*
+   javascript
+   const numbers = [1, 4, 2, 5, 8];
+   // Filter to keep only odd numbers
+   
+
+2. *Filter names starting with a specific letter:*
+   javascript
+   const names = ["Alice", "Bob", "Charlie", "David"];
+   const startingLetter = "C";
+   // Filter names starting with "C"
+   
+
+3. *Find objects with a certain property value:*
+   javascript
+   const users = [
+       { name: "John", age: 30 },
+       { name: "Jane", age: 25 },
+       { name: "Mike", age: 30 }
+   ];
+   const ageToFilter = 30;
+   // Filter users with age 30
+   
+
+4. *Remove empty strings from an array:*
+   javascript
+   const strings = ["hello", "", "world", ""];
+   // Filter to remove empty strings
+   
+
+5. *Keep strings longer than a certain length:*
+   javascript
+   const strings = ["short", "longer", "very long"];
+   const minLength = 6;
+   // Filter strings longer than 6 characters
+   
+
+6. *Filter dates within a specific range:*
+   ```javascript
+   const dates = ["2023-12-20", "2024-01-05", "2023-11-28"];
+   const startDate = "2023-12-01";
+   const endDate = "2023-12-31";
